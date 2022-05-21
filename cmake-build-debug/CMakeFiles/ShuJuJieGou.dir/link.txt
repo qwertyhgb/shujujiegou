@@ -1,0 +1,3 @@
+"D:\clion\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ShuJuJieGou.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe qc CMakeFiles\ShuJuJieGou.dir/objects.a @CMakeFiles\ShuJuJieGou.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ShuJuJieGou.dir/objects.a -Wl,--no-whole-archive -o ShuJuJieGou.exe -Wl,--out-implib,libShuJuJieGou.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ShuJuJieGou.dir\linklibs.rsp
