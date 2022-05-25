@@ -10,7 +10,7 @@ typedef struct node {
 typedef ListNode * LinkList;
 
 // 尾插法创建带头结点的单链表
-LinkList CreateLinkListHead() {
+LinkList CreateLinkListHead(void) {
     // 定义数值域
     int ch;
     // 声明一个头结点
@@ -26,18 +26,32 @@ LinkList CreateLinkListHead() {
     while (ch != 9999) {
         s = (ListNode *)malloc(sizeof(ListNode));
         s->data = ch;
-        s->next = t->next;
         t->next = s;
+        t = s;
         scanf("%d", &ch);
     }
     t->next = NULL;
     return L;
 }
 
+// 单链表插入数据
+int InsertListNode(ListNode *L, DataType x, int i) {  // 将值为x的结点插入到单链表的第i的位置
+    ListNode *p, *s;
+    p = 
+}
+
 // 输出单链表
+void PrintList(ListNode *L) {
+    ListNode *head = L;
+    while (head->next) {
+        printf("%d ", head->next->data);
+        head = head->next;
+    }
+}
 
 int main() {
     LinkList p;
     p = CreateLinkListHead();
+    PrintList(p);
     return 0;
 }
