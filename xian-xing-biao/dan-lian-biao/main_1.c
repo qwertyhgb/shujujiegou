@@ -106,5 +106,7 @@ int main() {
     printf("\n请输入要删除数据的位置:\n");
     scanf("%d", &d);
     printf("删除的数据是:%d\n", DeleteListNode(p,d));
+    printf("\n输出新链表:\n");
+    PrintList(p);
     return 0;
 }
