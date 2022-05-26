@@ -36,8 +36,25 @@ LinkList CreateLinkListHead(void) {
 
 // 单链表插入数据
 int InsertListNode(ListNode *L, DataType x, int i) {  // 将值为x的结点插入到单链表的第i的位置
-    ListNode *p, *s;
-    p = 
+    // 判断插入位置i的合法性
+    if (i < 1) {
+        printf("插入的位置错误!");
+        return 0;
+    }
+    ListNode  *p;
+    int j = 0;
+    p = L;  // L指向头节点，头结点时第0个节点
+    while (p != NULL && j < i - 1) {
+        p = p->next;
+        j++;
+    }
+    // 在dii-1结点后插入新的节点
+    ListNode  *s;
+    s = (ListNode *) malloc(sizeof (ListNode));
+    s->data = x;
+    s->next = p->next;
+    p->next = s;
+    return 1;
 }
 
 // 输出单链表
@@ -50,8 +67,14 @@ void PrintList(ListNode *L) {
 }
 
 int main() {
+    int x;
     LinkList p;
     p = CreateLinkListHead();
+    PrintList(p);
+    printf("\n请输入插入的元素:\n");
+    scanf("%d", &x);
+    InsertListNode(p, x, 3);
+    printf("\n输出新链表:\n");
     PrintList(p);
     return 0;
 }
