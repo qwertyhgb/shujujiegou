@@ -57,6 +57,33 @@ int InsertListNode(ListNode *L, DataType x, int i) {  // 将值为x的结点插�
     return 1;
 }
 
+// 删除数据
+int DeleteListNode(ListNode *L, int i) {  // 删除第i个节点的数据
+    int j = 0;
+    DataType ch;  // 用来存储被删除的数据
+    ListNode *p;
+    p = L;
+    if (i < 1) {
+        printf("删除的位置错误!");
+        return 0;
+    }
+    while (p != NULL && j < i - 1) {  // 指针p指向第i-1的节点
+        p = p->next;
+        j++;
+    }
+    if (p == NULL) {
+        return 0;
+    }
+    if (p->next == NULL) {  // 第i-1的节点以后以无其它节点
+        return 0;
+    }
+    ListNode *q;  // 定义指针q指向第i的节点即被删除的结点
+    q = p->next;
+    ch = q->data;
+    p->next = q->next;
+    return ch;
+}
+
 // 输出单链表
 void PrintList(ListNode *L) {
     ListNode *head = L;
@@ -67,7 +94,7 @@ void PrintList(ListNode *L) {
 }
 
 int main() {
-    int x;
+    int x, d;
     LinkList p;
     p = CreateLinkListHead();
     PrintList(p);
@@ -76,5 +103,8 @@ int main() {
     InsertListNode(p, x, 4);
     printf("\n输出新链表:\n");
     PrintList(p);
+    printf("\n请输入要删除数据的位置:\n");
+    scanf("%d", &d);
+    printf("删除的数据是:%d\n", DeleteListNode(p,d));
     return 0;
 }
