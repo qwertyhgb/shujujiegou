@@ -73,7 +73,7 @@ int main() {
     PrintList(p);
     printf("\n请输入插入的元素:\n");
     scanf("%d", &x);
-    InsertListNode(p, x, 3);
+    InsertListNode(p, x, 4);
     printf("\n输出新链表:\n");
     PrintList(p);
     return 0;
