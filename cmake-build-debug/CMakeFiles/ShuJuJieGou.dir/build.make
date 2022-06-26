@@ -52,10 +52,10 @@ RM = "D:\clion\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\MyCode\ShuJuJieGou
+CMAKE_SOURCE_DIR = E:\MyCode\ShuJuJieGou
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\MyCode\ShuJuJieGou\cmake-build-debug
+CMAKE_BINARY_DIR = E:\MyCode\ShuJuJieGou\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ShuJuJieGou.dir/depend.make
@@ -71,30 +71,30 @@ include CMakeFiles/ShuJuJieGou.dir/flags.make
 CMakeFiles/ShuJuJieGou.dir/main.c.obj: CMakeFiles/ShuJuJieGou.dir/flags.make
 CMakeFiles/ShuJuJieGou.dir/main.c.obj: ../main.c
 CMakeFiles/ShuJuJieGou.dir/main.c.obj: CMakeFiles/ShuJuJieGou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ShuJuJieGou.dir/main.c.obj"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ShuJuJieGou.dir/main.c.obj -MF CMakeFiles\ShuJuJieGou.dir\main.c.obj.d -o CMakeFiles\ShuJuJieGou.dir\main.c.obj -c D:\MyCode\ShuJuJieGou\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ShuJuJieGou.dir/main.c.obj"
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ShuJuJieGou.dir/main.c.obj -MF CMakeFiles\ShuJuJieGou.dir\main.c.obj.d -o CMakeFiles\ShuJuJieGou.dir\main.c.obj -c E:\MyCode\ShuJuJieGou\main.c
 
 CMakeFiles/ShuJuJieGou.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ShuJuJieGou.dir/main.c.i"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCode\ShuJuJieGou\main.c > CMakeFiles\ShuJuJieGou.dir\main.c.i
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MyCode\ShuJuJieGou\main.c > CMakeFiles\ShuJuJieGou.dir\main.c.i
 
 CMakeFiles/ShuJuJieGou.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ShuJuJieGou.dir/main.c.s"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCode\ShuJuJieGou\main.c -o CMakeFiles\ShuJuJieGou.dir\main.c.s
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MyCode\ShuJuJieGou\main.c -o CMakeFiles\ShuJuJieGou.dir\main.c.s
 
 CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj: CMakeFiles/ShuJuJieGou.dir/flags.make
 CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj: ../xian-xing-biao/shu-xu-biao/main_1.c
 CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj: CMakeFiles/ShuJuJieGou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj -MF CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.obj.d -o CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.obj -c D:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj"
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.obj -MF CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.obj.d -o CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.obj -c E:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c
 
 CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.i"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c > CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.i
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c > CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.i
 
 CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ShuJuJieGou.dir/xian-xing-biao/shu-xu-biao/main_1.c.s"
-	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c -o CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.s
+	C:\mingw-w64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MyCode\ShuJuJieGou\xian-xing-biao\shu-xu-biao\main_1.c -o CMakeFiles\ShuJuJieGou.dir\xian-xing-biao\shu-xu-biao\main_1.c.s
 
 # Object files for target ShuJuJieGou
 ShuJuJieGou_OBJECTS = \
@@ -110,7 +110,7 @@ ShuJuJieGou.exe: CMakeFiles/ShuJuJieGou.dir/build.make
 ShuJuJieGou.exe: CMakeFiles/ShuJuJieGou.dir/linklibs.rsp
 ShuJuJieGou.exe: CMakeFiles/ShuJuJieGou.dir/objects1.rsp
 ShuJuJieGou.exe: CMakeFiles/ShuJuJieGou.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ShuJuJieGou.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ShuJuJieGou.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ShuJuJieGou.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/ShuJuJieGou.dir/clean:
 .PHONY : CMakeFiles/ShuJuJieGou.dir/clean
 
 CMakeFiles/ShuJuJieGou.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\MyCode\ShuJuJieGou D:\MyCode\ShuJuJieGou D:\MyCode\ShuJuJieGou\cmake-build-debug D:\MyCode\ShuJuJieGou\cmake-build-debug D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles\ShuJuJieGou.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\MyCode\ShuJuJieGou E:\MyCode\ShuJuJieGou E:\MyCode\ShuJuJieGou\cmake-build-debug E:\MyCode\ShuJuJieGou\cmake-build-debug E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles\ShuJuJieGou.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ShuJuJieGou.dir/depend
 

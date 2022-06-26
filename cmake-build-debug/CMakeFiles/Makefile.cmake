@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
@@ -31,6 +27,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake"
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake"
   "D:/clion/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/ProcessorCount.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -49,4 +49,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ShuJuJieGou.dir/DependInfo.cmake"
   "CMakeFiles/main_1.dir/DependInfo.cmake"
   "CMakeFiles/main_2.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   )

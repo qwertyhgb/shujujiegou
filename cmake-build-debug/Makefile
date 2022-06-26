@@ -56,10 +56,10 @@ RM = "D:\clion\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\MyCode\ShuJuJieGou
+CMAKE_SOURCE_DIR = E:\MyCode\ShuJuJieGou
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\MyCode\ShuJuJieGou\cmake-build-debug
+CMAKE_BINARY_DIR = E:\MyCode\ShuJuJieGou\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles D:\MyCode\ShuJuJieGou\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles E:\MyCode\ShuJuJieGou\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MyCode\ShuJuJieGou\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,12 +154,26 @@ main_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_2.dir\build.make CMakeFiles/main_2.dir/build
 .PHONY : main_2/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShuJuJieGou.dir\build.make CMakeFiles/ShuJuJieGou.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -168,6 +182,7 @@ main.i: main.c.i
 # target to preprocess a source file
 main.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShuJuJieGou.dir\build.make CMakeFiles/ShuJuJieGou.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -176,6 +191,7 @@ main.s: main.c.s
 # target to generate assembly for a file
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShuJuJieGou.dir\build.make CMakeFiles/ShuJuJieGou.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 xian-xing-biao/dan-lian-biao/main_1.obj: xian-xing-biao/dan-lian-biao/main_1.c.obj
@@ -259,6 +275,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ShuJuJieGou
+	@echo ... main
 	@echo ... main_1
 	@echo ... main_2
 	@echo ... main.obj

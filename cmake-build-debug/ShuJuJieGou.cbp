@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ShuJuJieGou">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/ShuJuJieGou.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/ShuJuJieGou.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,15 +29,15 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShuJuJieGou"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShuJuJieGou"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ShuJuJieGou/fast">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/ShuJuJieGou.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/ShuJuJieGou.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,15 +47,15 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShuJuJieGou/fast"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShuJuJieGou/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main_1">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/main_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,15 +65,15 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_1"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_1"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main_1/fast">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/main_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -83,15 +83,15 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_1/fast"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_1/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main_2">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/main_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -101,15 +101,15 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_2"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_2"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main_2/fast">
-				<Option output="D:/MyCode/ShuJuJieGou/cmake-build-debug/main_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -119,46 +119,83 @@
 					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_2/fast"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_2/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="E:/MyCode/ShuJuJieGou/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/MyCode/ShuJuJieGou/cmake-build-debug"/>
+				<Option working_dir="E:/MyCode/ShuJuJieGou/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;E:/MyCode/ShuJuJieGou/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/MyCode/ShuJuJieGou/main.c">
+		<Unit filename="E:/MyCode/ShuJuJieGou/main.c">
 			<Option target="ShuJuJieGou"/>
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="D:/MyCode/ShuJuJieGou/xian-xing-biao/dan-lian-biao/main_1.c">
+		<Unit filename="E:/MyCode/ShuJuJieGou/xian-xing-biao/dan-lian-biao/main_1.c">
 			<Option target="main_1"/>
 		</Unit>
-		<Unit filename="D:/MyCode/ShuJuJieGou/xian-xing-biao/dan-lian-biao/main_2.c">
+		<Unit filename="E:/MyCode/ShuJuJieGou/xian-xing-biao/dan-lian-biao/main_2.c">
 			<Option target="main_2"/>
 		</Unit>
-		<Unit filename="D:/MyCode/ShuJuJieGou/xian-xing-biao/shu-xu-biao/main_1.c">
+		<Unit filename="E:/MyCode/ShuJuJieGou/xian-xing-biao/shu-xu-biao/main_1.c">
 			<Option target="ShuJuJieGou"/>
 		</Unit>
-		<Unit filename="D:/MyCode/ShuJuJieGou/CMakeLists.txt">
+		<Unit filename="E:/MyCode/ShuJuJieGou/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -53,7 +53,6 @@ int InsertListNode(ListNode *L, DataType x, int i) {  // 将值为x的结点插�
     s = (ListNode *) malloc(sizeof (ListNode));
     s->data = x;
     s->next = p->next;
-    p->next = s;
     return 1;
 }
 
@@ -82,6 +81,11 @@ int DeleteListNode(ListNode *L, int i) {  // 删除第i个节点的数据
     ch = q->data;
     p->next = q->next;
     return ch;
+}
+
+// 按值查找单链表数据
+void SearchListNOde() {
+    int 
 }
 
 // 输出单链表
